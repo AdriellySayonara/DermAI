@@ -63,7 +63,7 @@ A core innovation is the integrated **Model Factory**, which enables researchers
 
 DermAI addresses a critical gap in digital dermatology for neglected tropical diseases, particularly in low-resource settings where leprosy remains endemic [@barbieri2022reimagining]. By providing a modular, reusable, and transparent platform, it supports both clinical decision support and reproducible research in medical image analysis[@tan2025clinical].
 
-Recent advances in biomedical image analysis and computer-aided diagnosis have significantly improved clinical decision support across various medical domains [@Haarburger2019Delira] and [@Moore2022CleanX]. These developments highlight the growing role of artificial intelligence in healthcare research and practice [@ADaPT-ML], [@Biondi2021COVID19LungSeg] and [Spannaus2023FrESCO].
+Recent advances in biomedical image analysis and computer-aided diagnosis have significantly improved clinical decision support across various medical domains [@Haarburger2019Delira] and [@Moore2022CleanX]. These developments highlight the growing role of artificial intelligence in healthcare research and practice [@ADaPT-ML], [@Biondi2021COVID19LungSeg] and [@Spannaus2023FrESCO].
 
 # Statement of Need
 
