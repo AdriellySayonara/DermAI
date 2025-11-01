@@ -1,5 +1,5 @@
 ---
-title: 'DermAI: An Open-Source Web Framework for Hybrid Deep Learning in the Differential Diagnosis of Leprosy and Skin Cancer'
+title: "DermAI: An Open-Source Web Framework for Hybrid Deep Learning in the Differential Diagnosis of Leprosy and Skin Cancer"
 
 tags:
   - Python
@@ -38,7 +38,7 @@ authors:
   - name: Juliana Carneiro Gomes
     orcid: 0000-0002-0785-0767
     affiliation: "1"
-  - name: Giselle Machado Magalhães Moreno 
+  - name: Giselle Machado Magalhães Moreno
     orcid: 0000-0003-4076-3494
     affiliation: "1"
   - name: Wellington Pinheiro dos Santos
@@ -63,17 +63,20 @@ A core innovation is the integrated **Model Factory**, which enables researchers
 
 DermAI addresses a critical gap in digital dermatology for neglected tropical diseases, particularly in low-resource settings where leprosy remains endemic [@barbieri2022reimagining]. By providing a modular, reusable, and transparent platform, it supports both clinical decision support and reproducible research in medical image analysis[@tan2025clinical].
 
+Recent advances in biomedical image analysis and computer-aided diagnosis have significantly improved clinical decision support across various medical domains [@Haarburger2019Delira] and [@Moore2022CleanX]. These developments highlight the growing role of artificial intelligence in healthcare research and practice [@ADaPT-ML], [@Biondi2021COVID19LungSeg] and [Spannaus2023FrESCO].
+
 # Statement of Need
 
-Current open-source tools for skin lesion analysis rarely address the **differential diagnosis between infectious and neoplastic skin conditions**, especially neglected diseases like leprosy [@oliveira2025dermai]. Moreover, many existing systems lack modularity, interpretability, or integration into a deployable clinical workflow.
+Current open-source tools for skin lesion analysis rarely address the **differential diagnosis between infectious and neoplastic skin conditions**, especially neglected diseases like leprosy [oliveira2025dermai_zenodo]. Moreover, many existing systems lack modularity, interpretability, or integration into a deployable clinical workflow.
 
 DermAI fills this niche by offering:
+
 - A **hybrid modeling approach** that decouples feature extraction from classification, enabling flexible experimentation;
 - Support for **multi-scenario evaluation**, reflecting real-world diagnostic challenges;
 - Built-in **explainability** via Grad-CAM to foster clinician trust;
 - A **full-stack web application** following the MVC pattern (Django), making it deployable in clinical or research environments.
 
-The software has been validated on the public *Atlas Dermatológico* dataset [@atlasdermatologico] and demonstrates >94% accuracy in distinguishing leprosy from skin cancer and >98% accuracy in separating skin cancer from benign mimickers.
+The software has been validated on the public _Atlas Dermatológico_ dataset and demonstrates >94% accuracy in distinguishing leprosy from skin cancer and >98% accuracy in separating skin cancer from benign mimickers.
 
 # Features
 
@@ -87,6 +90,7 @@ The software has been validated on the public *Atlas Dermatológico* dataset [@a
 # Quality Control
 
 DermAI is implemented in Python 3 using standard scientific libraries (TensorFlow/Keras, scikit-learn) and the Django web framework. The repository includes:
+
 - A requirements.txt for dependency management;
 - Structured Django app architecture with clear separation of concerns;
 - Example training scripts and model serialization;
@@ -96,6 +100,6 @@ The software is distributed under the **GNU General Public License v3.0**, ensur
 
 # Acknowledgements
 
-This work was developed as part of a Master’s dissertation at the Federal University of Pernambuco (UFPE), Brazil, with support from the Graduate Program in Biomedical Engineering. The authors thank the *Atlas Dermatológico* team for providing public access to dermatological images.
+This work was developed as part of a Master’s dissertation at the Federal University of Pernambuco (UFPE), Brazil, with support from the Graduate Program in Biomedical Engineering. The authors thank the _Atlas Dermatológico_ team for providing public access to dermatological images.
 
 # References
