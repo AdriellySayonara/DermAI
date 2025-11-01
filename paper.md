@@ -67,7 +67,7 @@ Recent advances in biomedical image analysis and computer-aided diagnosis have s
 
 # Statement of Need
 
-Current open-source tools for skin lesion analysis rarely address the **differential diagnosis between infectious and neoplastic skin conditions**, especially neglected diseases like leprosy [oliveira2025dermai_zenodo]. Moreover, many existing systems lack modularity, interpretability, or integration into a deployable clinical workflow.
+Current open-source tools for skin lesion analysis rarely address the **differential diagnosis between infectious and neoplastic skin conditions**, especially neglected diseases like leprosy [@oliveira2025dermai_zenodo]. Moreover, many existing systems lack modularity, interpretability, or integration into a deployable clinical workflow.
 
 DermAI fills this niche by offering:
 
